@@ -1,0 +1,563 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-size: 62.5%;
+}
+
+.wrapper {
+  width: 960px;
+  margin: 0 auto;
+  background-color: #fff;
+  font-size: 0;
+}
+
+.header {
+  display: inline-block;
+  font-size: 1rem;
+  width: 100%;
+  margin-top: 40px;
+}
+
+.header h1 {
+  text-align: center;
+  margin: auto;
+  font-size: 7.2rem;
+  color: #000;
+  font-weight: 900;
+  padding: 0 5px;
+}
+
+.header h3 {
+  text-align: center;
+  margin: auto;
+}
+
+.header h3 span {
+  font-size: 2rem;
+  color: #fff;
+  font-weight: 900;
+  padding: 2px 8px;
+  background-color: #000;
+}
+
+.picture1,
+.picture2,
+.picture3,
+.picture4 {
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.box {
+  border: 20px solid #50e3c2;
+  position: absolute;
+  z-index: 1;
+}
+
+.leftitem,
+.rightitem {
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  display: inline-block;
+  font-size: 1rem;
+}
+
+.leftitem {
+  width: 62.5%;
+}
+
+.rightitem {
+  width: 37.5%;
+}
+
+.number {
+  font-size: 4.8rem;
+  font-weight: 900;
+  position: absolute;
+}
+
+.title span,
+.title:before,
+.title:after {
+  font-size: 4.8rem;
+  font-weight: 900;
+  line-height: 3.8rem;
+  position: absolute;
+}
+
+.title:before {
+  color: rgba(0, 0, 0, 0.1);
+  z-index: 1;
+  height: 13px;
+  overflow: hidden;
+}
+
+.title span {
+  color: rgba(0, 0, 0, 0.3);
+  z-index: 10;
+  height: 20px;
+  overflow: hidden;
+}
+
+.title:after {
+  color: black;
+  background-color: transparent;
+  z-index: 20;
+}
+
+.subtitle {
+  color: #000;
+  font-style: italic;
+  font-size: 2.4rem;
+  font-weight: 700;
+  letter-spacing: -1px;
+  width: auto;
+}
+
+/* .picture1 */
+.picture1 {
+  height: 600px;
+}
+
+.picture1 .leftitem .box1 {
+  width: 240px;
+  height: 200px;
+  top: 70px;
+  left: 299px;
+}
+
+.picture1 .leftitem .title:before {
+  content: "LINEN BLAZER";
+  top: 80px;
+  left: 0;
+}
+
+.picture1 .leftitem .title span {
+  top: 89px;
+  left: 0;
+}
+
+.picture1 .leftitem .title:after {
+  content: "LINEN BLAZER";
+  top: 105px;
+  left: 0;
+}
+
+.picture1 .leftitem .promoimg {
+  position: absolute;
+  top: 120px;
+  left: 0;
+  width: 80%;
+  padding-bottom: 66.67%;
+  background: url(https://images.unsplash.com/photo-1513827379601-9dba5099a3f9?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1acdd78f34ee75aade9e313251bb1695&auto=format&fit=crop&w=2134&q=80) left -150px;
+  background-size: cover;
+  z-index: 1;
+}
+
+.picture1 .leftitem .subtitle {
+  position: absolute;
+  bottom: 0;
+  right: -70px;
+  z-index: 100;
+  transform: rotate(90deg);
+}
+
+.picture1 .leftitem .number {
+  bottom: -55px;
+  left: 0;
+  z-index: 100;
+}
+
+.picture1 .leftitem .number:after {
+  content: "";
+  position: absolute;
+  top: -40px;
+  left: 60px;
+  width: 240px;
+  height: 100px;
+  background: linear-gradient(135deg, #50e3c2 25%, transparent 0, transparent 50%, #50e3c2 0, #50e3c2 75%, transparent 0);
+  background-size: 60px 60px;
+  z-index: 100;
+}
+
+.picture1 .rightitem .box2 {
+  width: 240px;
+  height: 200px;
+  top: 140px;
+  right: 0;
+}
+
+.picture1 .rightitem .box2 .number {
+  top: -24px;
+  right: -20px;
+}
+
+.picture1 .rightitem .box2:after {
+  content: "";
+  position: absolute;
+  top: 30px;
+  right: 40px;
+  width: 240px;
+  height: 200px;
+  background-color: #50e3c2;
+}
+
+.picture1 .rightitem .promoimg {
+  position: absolute;
+  top: 240px;
+  left: 0;
+  width: 66.67%;
+  padding-bottom: 55.56%;
+  background: url(https://images.unsplash.com/photo-1514632542677-48fae74a01b2?ixlib=rb-0.3.5&s=50945fdb784e64361154c62785542531&auto=format&fit=crop&w=934&q=80) left -80px;
+  background-size: cover;
+  z-index: 1;
+}
+
+.picture1 .rightitem .subtitle {
+  position: absolute;
+  top: -25px;
+  left: -13px;
+  z-index: 100;
+}
+
+.picture1 .rightitem .title:before {
+  content: "FREELIFT";
+  bottom: 270px;
+  right: 0;
+}
+
+.picture1 .rightitem .title span {
+  bottom: 254px;
+  right: 0;
+}
+
+.picture1 .rightitem .title:after {
+  content: "FREELIFT";
+  bottom: 213px;
+  right: 0;
+}
+
+/* .picture2 */
+.picture2 {
+  height: 520px;
+}
+
+.picture2 .leftitem .promoimg {
+  position: absolute;
+  top: 120px;
+  left: 0;
+  width: 80%;
+  padding-bottom: 33.33%;
+  background: url(https://images.unsplash.com/photo-1496345875659-11f7dd282d1d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=a0f994eef47e5fb1a67849703cc961b3&auto=format&fit=crop&w=1350&q=80) left -60px;
+  background-size: cover;
+  z-index: 1;
+}
+
+.picture2 .leftitem .box1 {
+  width: 240px;
+  height: 200px;
+  bottom: 155px;
+  right: 60px;
+}
+
+.picture2 .leftitem .box1:before {
+  content: "";
+  position: absolute;
+  width: 240px;
+  height: 65px;
+  background-color: #50e3c2;
+  top: -110px;
+  left: -320px;
+}
+
+.picture2 .leftitem .title:before {
+  content: "SUPER SKINNY";
+  top: 50px;
+  left: 144px;
+}
+
+.picture2 .leftitem .title span {
+  top: 59px;
+  left: 144px;
+}
+
+.picture2 .leftitem .title:after {
+  content: "SUPER SKINNY";
+  top: 75px;
+  left: 144px;
+}
+
+.picture2 .leftitem .subtitle {
+  position: absolute;
+  bottom: -27px;
+  left: 0;
+  z-index: 100;
+}
+
+.picture2 .leftitem .number {
+  bottom: -25px;
+  right: -15px;
+  z-index: 100;
+}
+
+.picture2 .rightitem .subtitle {
+  position: absolute;
+  top: 35px;
+  right: -3px;
+  z-index: 100;
+  transform: rotate(90deg);
+}
+
+.picture2 .rightitem .title:before {
+  content: "DENIM";
+  top: 65px;
+  left: -142px;
+  transform: rotate(-90deg);
+}
+
+.picture2 .rightitem .title span {
+  top: 60px;
+  left: -127px;
+  height: 23px;
+  transform: rotate(-90deg);
+}
+
+.picture2 .rightitem .title:after {
+  content: "DENIM";
+  top: 50px;
+  left: -97px;
+  transform: rotate(-90deg);
+}
+
+.picture2 .rightitem .box2 {
+  width: 240px;
+  height: 200px;
+  top: 0;
+  left: 60px;
+}
+
+.picture2 .rightitem .promoimg {
+  position: absolute;
+  top: 120px;
+  right: 0;
+  width: 66.67%;
+  padding-bottom: 111.11%;
+  background: url(https://images.unsplash.com/photo-1484516758160-69878111a911?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=39466d66952b133d5a5cff642b970d05&auto=format&fit=crop&w=987&q=80) -30px 0;
+  background-size: cover;
+  z-index: 1;
+}
+
+.picture2 .rightitem .number {
+  bottom: -5px;
+  left: -60px;
+}
+
+.picture2 .rightitem .number:after {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 60px;
+  width: 240px;
+  height: 100px;
+  background: linear-gradient(135deg, #50e3c2 25%, transparent 0, transparent 50%, #50e3c2 0, #50e3c2 75%, transparent 0);
+  background-size: 60px 60px;
+  z-index: 100;
+}
+
+/* .picture3 */
+.picture3 {
+  height: 400px;
+}
+
+.picture3 .leftitem .subtitle {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.picture3 .leftitem .promoimg {
+  position: absolute;
+  top: 0;
+  left: 240px;
+  width: 40%;
+  padding-bottom: 33.33%;
+  background: url(https://images.unsplash.com/photo-1525448198276-222de3961638?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=43fb25556cdbd191e520c7f28739e40d&auto=format&fit=crop&w=1350&q=80) -30px 0;
+  background-size: cover;
+  transform: scale(-1, 1);
+  z-index: 2;
+}
+
+.picture3 .leftitem .promomask {
+  position: absolute;
+  top: -40px;
+  left: 40px;
+  width: 240px;
+  height: 100px;
+  background: linear-gradient(135deg, #50e3c2 25%, transparent 0, transparent 50%, #50e3c2 0, #50e3c2 75%, transparent 0);
+  background-size: 60px 60px;
+  z-index: 10;
+}
+
+.picture3 .leftitem .title:before {
+  content: "SWEATSHIRTS";
+  top: 40px;
+  left: 0;
+  z-index: 11;
+}
+
+.picture3 .leftitem .title span {
+  top: 49px;
+  left: 0;
+}
+
+.picture3 .leftitem .title:after {
+  content: "SWEATSHIRTS";
+  top: 65px;
+  left: 0;
+}
+
+.picture3 .leftitem .box1 {
+  width: 240px;
+  height: 100px;
+  top: 140px;
+  left: 120px;
+  z-index: 1;
+}
+
+.picture3 .leftitem .number {
+  top: -27px;
+  left: -19px;
+}
+
+.picture3 .rightitem .title:before {
+  content: "VINTAGE DENIM";
+  top: 124px;
+  right: 0;
+}
+
+.picture3 .rightitem .title span {
+  top: 133px;
+  right: 0;
+}
+
+.picture3 .rightitem .title:after {
+  content: "VINTAGE DENIM";
+  top: 150px;
+  right: 0;
+}
+
+.picture3 .rightitem .promoimg {
+  position: absolute;
+  top: 200px;
+  left: -120px;
+  width: 133.33%;
+  padding-bottom: 111.11%;
+  background: url(https://images.unsplash.com/photo-1519406709381-c1f293304b28?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=98c497a29f229085d9574ee8b6eeef8c&auto=format&fit=crop&w=934&q=80) -30px -160px;
+  background-size: cover;
+  z-index: 2;
+}
+
+.picture3 .rightitem .number {
+  bottom: 50%;
+  left: -56px;
+}
+
+.picture3 .rightitem .number:after {
+  content: "";
+  position: absolute;
+  width: 56px;
+  height: 202px;
+  background-color: #50e3c2;
+  top: 57px;
+  left: 0;
+}
+
+.picture3 .rightitem .box2 {
+  width: 480px;
+  height: 200px;
+  bottom: -250px;
+  left: -120px;
+  z-index: 1;
+}
+
+.picture3 .rightitem .box2 .subtitle {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+/* .picture4 */
+.picture4 .leftitem .promoimg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 40%;
+  padding-bottom: 66.67%;
+  background: url(https://images.unsplash.com/photo-1516914943479-89db7d9ae7f2?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjF9&s=c3fe320bd592fb75fb54bf245817450d&auto=format&fit=crop&w=934&q=80) -30px 0;
+  background-size: cover;
+  z-index: 2;
+  margin-bottom: 40px;
+}
+
+.picture4 .leftitem .box1 {
+  width: 240px;
+  height: 400px;
+  top: -60px;
+  left: 60px;
+  z-index: 1;
+}
+
+.picture4 .leftitem .title:before {
+  content: "EDITION";
+  top: 125px;
+  left: 135px;
+  z-index: 11;
+  transform: rotate(90deg);
+}
+
+.picture4 .leftitem .title span {
+  top: 122px;
+  left: 121px;
+  transform: rotate(90deg);
+}
+
+.picture4 .leftitem .title:after {
+  content: "EDITION";
+  top: 110px;
+  left: 90px;
+  transform: rotate(90deg);
+}
+
+.picture4 .leftitem .number {
+  bottom: 0;
+  right: -120px;
+  z-index: 2;
+}
+
+.picture4 .leftitem .promomask {
+  position: absolute;
+  top: 200px;
+  left: 120px;
+  width: 240px;
+  height: 200px;
+  background-color: #50e3c2;
+  z-index: 1;
+}
+
+.picture4 .leftitem .subtitle {
+  position: absolute;
+  top: -30px;
+  left: 0;
+  z-index: 2;
+}
